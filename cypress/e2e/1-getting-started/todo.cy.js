@@ -12,5 +12,7 @@
 // https://on.cypress.io/introduction-to-cypress
 
 describe('example to-do app', () => {
-  cy.visit('https://example.cypress.io/todo')
+  it('visti google', () => {
+    cy.visit('https://google.com')
+  })
 })
